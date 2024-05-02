@@ -271,14 +271,17 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide">
+                <div class="swiper-slide" >
                     <img src="./assets/img/bbq.png" alt="comida">
+                    <span style="font-size: 1rem; color: #fff; margin-top: 5px; ">2 x 1</span>
                 </div>
                 <div class="swiper-slide">
                     <img src="./assets/img/Ranchera.png" alt="comida">
+                    <span style="font-size: 1rem; color: #fff; margin-top: 5px;">4 x 15$</span>
                 </div>
                 <div class="swiper-slide">
                     <img src="./assets/img/doble.png" alt="comida">
+                    <span style="font-size: 1rem; color: #fff; margin-top: 5px;">2 x 5$</span>
                 </div>
                 ...
             </div>
@@ -336,11 +339,8 @@
         <i class="fa-solid fa-chevron-up"></i>
     </div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-      <script src=".//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
       <script type="module" src="./assets/js/main.js"></script>
       <script>
           let year = document.getElementById('year')
@@ -348,6 +348,10 @@
     
           year.innerHTML = date
       </script>
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script>
 </body>
 
 </html>

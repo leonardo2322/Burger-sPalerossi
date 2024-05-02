@@ -389,7 +389,7 @@ body{
 
 .hero .container {
     width: 100%;
-    height: 200px;
+    height: 250px;
     background-image: url(../img/fomdo.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -898,7 +898,9 @@ body{
     font-size: 1.3rem;
     color: var(--text-color);
 }
-
+.swiper-slide {
+    text-align: center;
+  }
 @media (max-width: 480px) {
 
     /* ? Modals */
