@@ -2,7 +2,7 @@ export const items =[
     {
       "id": 1,
       "titulo": "Hamburguesa Clásica",
-      "imagen": "./assets/img/clasica.png",
+      "imagen": "/assets/img/clasica.png",
       "precio": 5.99,
       "quantity": 10,
       "detalles": "Deliciosa hamburguesa con carne de res, lechuga, tomate y queso"
@@ -10,7 +10,7 @@ export const items =[
     {
       "id": 2,
       "titulo": "Hamburguesa BBQ",
-      "imagen": "./assets/img/bbq.png",
+      "imagen": "/assets/img/bbq.png",
       "precio": 6.99,
       "quantity": 10,
       "detalles": "Hamburguesa con carne de res, salsa BBQ, cebolla caramelizada y queso"
@@ -18,7 +18,7 @@ export const items =[
     {
       "id":3,
       "titulo": "Hamburguesa Ranchera",
-      "imagen": "./assets/img/Ranchera.png",
+      "imagen": "/assets/img/Ranchera.png",
       "precio": 7.99,
       "quantity": 10,
       "detalles": "Hamburguesa con carne de res, salsa ranchera, jalapeños y queso"
@@ -26,7 +26,7 @@ export const items =[
     {
       "id": 4,
       "titulo": "Hamburguesa Veggie",
-      "imagen": "./assets/img/veggie.png",
+      "imagen": "/assets/img/veggie.png",
       "precio": 6.99,
       "quantity": 10,
       "detalles": "Hamburguesa vegetariana con base de lentejas, zanahoria y especias"
@@ -34,7 +34,7 @@ export const items =[
     {
       "id": 5,
       "titulo": "Hamburguesa Doble",
-      "imagen": "./assets/img/doble.png",
+      "imagen": "/assets/img/doble.png",
       "precio": 8.99,
       "quantity": 10,
       "detalles": "Doble carne de res, doble queso, lechuga, tomate y cebolla"
@@ -42,7 +42,7 @@ export const items =[
     {
       "id": 6,
       "titulo": "Hamburguesa Hawaiana",
-      "imagen": "./assets/img/hawaiana.png",
+      "imagen": "/assets/img/hawaiana.png",
       "precio": 7.99,
       "quantity": 10,
       "detalles": "Hamburguesa con carne de res, piña, jamón, queso y salsa especial"
@@ -50,7 +50,7 @@ export const items =[
     {
       "id": 7,
       "titulo": "Hamburguesa de Pollo",
-      "imagen": "./assets/img/pollo.png",
+      "imagen": "/assets/img/pollo.png",
       "precio": 6.99,
       "quantity": 10,
       "detalles": "Hamburguesa con pollo empanizado, lechuga, tomate y mayonesa"
@@ -58,7 +58,7 @@ export const items =[
     {
       "id": 8,
       "titulo": "Hamburguesa de Pescado",
-      "imagen": "./assets/img/pescado.png",
+      "imagen": "/assets/img/pescado.png",
       "precio": 7.99,
       "quantity": 10,
       "detalles": "Hamburguesa con filete de pescado empanizado, lechuga, tomate y salsa tártara"
@@ -66,7 +66,7 @@ export const items =[
     {
       "id": 9,
       "titulo": "Hamburguesa Mexicana",
-      "imagen": "./assets/img/mexicana.png",
+      "imagen": "/assets/img/mexicana.png",
       "precio": 7.99,
       "quantity": 10,
       "detalles": "Hamburguesa con carne de res, guacamole, jalapeños, cebolla y queso"
@@ -74,7 +74,7 @@ export const items =[
     {
       "id": 10,
       "titulo": "Hamburguesa de Tofu",
-      "imagen": "./assets/img/tofu.png",
+      "imagen": "/assets/img/tofu.png",
       "precio": 6.99,
       "quantity": 10,
       "detalles": "Hamburguesa vegana con base de tofu, espinacas y especias"
