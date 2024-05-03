@@ -3,7 +3,6 @@ import { cart, renderCart } from "./cart.js"
 import { db } from "./products.js"
 
 export const findProductModal = () => {
-    console.log("aca 0")
     const selectProductModal = document.querySelector('.modal__product-select')
     const containerModal = document.querySelector('.modal__product-select')
 
@@ -97,7 +96,7 @@ export const findProductModal = () => {
 
 
     document.addEventListener('click', (event) => {
-        console.log(event.target)
+        
         if (event.target && event.target.classList.contains("card") || event.target.classList.contains("card-description") || event.target.classList.contains("card-price") || event.target.classList.contains("card-titulo")) {
             
             cardProductSelect(event)
